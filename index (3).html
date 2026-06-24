@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!--
+  ════════════════════════════════════════════════════════════════════
+  NAAM JAP — PRIVACY POLICY
+  ════════════════════════════════════════════════════════════════════
+
+  BEFORE YOU PUBLISH, REPLACE THESE 2 THINGS (search for them below):
+
+    1.  Vayu Mishra        →  your name or company name as it
+                                   appears on the Play Store listing
+    2.  vayumishra019@gmail.com  →  a real contact email
+
+  Optional: update the "Last updated" date if you change the policy later.
+
+  HOW TO HOST IT (pick one, all free):
+    • Netlify Drop  – drag this file onto  app.netlify.com/drop
+    • GitHub Pages  – upload this file to a repo, enable Pages
+    • Cloudflare Pages / Vercel / Firebase Hosting
+
+  Then paste the resulting URL into:
+    Play Console → App content → Privacy policy
+  ════════════════════════════════════════════════════════════════════
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy · Naam Jap</title>
+<meta name="description" content="Privacy Policy for the Naam Jap app. Naam Jap collects no personal data and keeps your jap counts on your device.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-0:#0a0515;
+    --bg-1:#140826;
+    --bg-2:#1d0e34;
+    --violet:#3d0d5c;
+    --rose:#b5478a;
+    --rose-light:#e8b4e8;
+    --rose-deep:#5a0d50;
+    --gold:#e5b04a;
+    --gold-light:#ffd98a;
+    --text:#ece0f2;
+    --text-muted:#bca8cb;
+    --text-faint:#7d6a90;
+    --line:rgba(181,71,138,0.16);
+    --line-soft:rgba(232,180,232,0.10);
+    --display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+    --body:"Spectral",Georgia,"Times New Roman",serif;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  html{scroll-behavior:smooth}
+
+  body{
+    font-family:var(--body);
+    color:var(--text);
+    background-color:var(--bg-0);
+    line-height:1.75;
+    font-size:17px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+
+  /* layered sacred-night background */
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    background:
+      radial-gradient(120% 70% at 50% -8%, rgba(61,13,92,0.75) 0%, rgba(20,8,38,0.0) 55%),
+      radial-gradient(80% 50% at 50% 0%, rgba(181,71,138,0.30) 0%, rgba(181,71,138,0.0) 45%),
+      radial-gradient(60% 60% at 85% 110%, rgba(90,13,80,0.30) 0%, rgba(90,13,80,0.0) 50%),
+      var(--bg-0);
+  }
+
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:0 24px 80px;
+  }
+
+  /* ── header / lamp ─────────────────────────────────────────────── */
+  header{
+    text-align:center;
+    padding:88px 0 18px;
+  }
+
+  .lamp{
+    position:relative;
+    width:148px;
+    height:148px;
+    margin:0 auto 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .lamp .halo{
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    background:radial-gradient(circle,
+      rgba(181,71,138,0.0) 38%,
+      rgba(181,71,138,0.22) 60%,
+      rgba(181,71,138,0.0) 78%);
+  }
+  .lamp .core{
+    position:relative;
+    width:104px;
+    height:104px;
+    border-radius:50%;
+    background:radial-gradient(circle at 50% 40%, #7a1f68 0%, var(--rose-deep) 70%);
+    border:1.5px solid rgba(232,180,232,0.42);
+    box-shadow:
+      0 0 42px 6px rgba(181,71,138,0.55),
+      0 0 90px 24px rgba(181,71,138,0.18),
+      inset 0 0 26px rgba(0,0,0,0.35);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    animation:breathe 5.5s ease-in-out infinite alternate;
+  }
+  .lamp .om{
+    font-size:46px;
+    line-height:1;
+    filter:drop-shadow(0 0 12px rgba(255,217,138,0.45));
+  }
+  /* little mala tassel below the lamp */
+  .tassel{
+    position:absolute;
+    top:142px;
+    left:50%;
+    transform:translateX(-50%);
+    opacity:.85;
+  }
+
+  @keyframes breathe{
+    from{transform:scale(1);   box-shadow:0 0 42px 6px rgba(181,71,138,0.45), 0 0 90px 24px rgba(181,71,138,0.14), inset 0 0 26px rgba(0,0,0,0.35);}
+    to  {transform:scale(1.045);box-shadow:0 0 56px 10px rgba(181,71,138,0.62), 0 0 120px 32px rgba(181,71,138,0.22), inset 0 0 26px rgba(0,0,0,0.35);}
+  }
+
+  .eyebrow{
+    font-family:var(--body);
+    font-size:12px;
+    letter-spacing:.42em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-bottom:14px;
+    padding-left:.42em;
+  }
+  h1{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:clamp(48px,12vw,76px);
+    line-height:1;
+    letter-spacing:.01em;
+    color:#fff;
+    text-shadow:0 0 34px rgba(232,180,232,0.35);
+  }
+  .lede{
+    font-family:var(--display);
+    font-style:italic;
+    font-weight:500;
+    font-size:clamp(19px,4.5vw,23px);
+    color:var(--rose-light);
+    margin-top:14px;
+  }
+  .updated{
+    margin-top:22px;
+    font-size:12.5px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--text-faint);
+  }
+
+  /* ── pledge card ───────────────────────────────────────────────── */
+  .pledge{
+    margin-top:46px;
+    padding:30px 30px 26px;
+    border-radius:20px;
+    background:linear-gradient(160deg, rgba(61,13,92,0.42), rgba(20,8,38,0.55));
+    border:1px solid var(--line);
+    box-shadow:0 0 0 1px rgba(0,0,0,0.15), 0 20px 60px -30px rgba(181,71,138,0.5);
+  }
+  .pledge h2{
+    font-family:var(--body);
+    font-weight:600;
+    font-size:12px;
+    letter-spacing:.34em;
+    text-transform:uppercase;
+    color:var(--rose-light);
+    margin-bottom:14px;
+  }
+  .pledge p{
+    font-family:var(--display);
+    font-size:clamp(20px,4.6vw,25px);
+    line-height:1.5;
+    color:var(--text);
+    font-weight:500;
+  }
+  .pills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:22px;
+  }
+  .pill{
+    font-size:13px;
+    letter-spacing:.06em;
+    color:var(--gold-light);
+    padding:7px 15px;
+    border-radius:999px;
+    border:1px solid rgba(229,176,74,0.35);
+    background:rgba(229,176,74,0.08);
+    white-space:nowrap;
+  }
+
+  /* ── bead divider (mala motif) ─────────────────────────────────── */
+  .beads{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:9px;
+    margin:54px 0;
+  }
+  .beads .b{width:5px;height:5px;border-radius:50%;background:var(--rose);opacity:.5}
+  .beads .b.sm{width:4px;height:4px;opacity:.32}
+  .beads .guru{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px rgba(229,176,74,0.7)}
+
+  /* ── sections ──────────────────────────────────────────────────── */
+  section.policy{margin-top:42px}
+  section.policy:first-of-type{margin-top:0}
+
+  .sec-head{
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+    margin-bottom:14px;
+  }
+  .num{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:20px;
+    color:var(--gold);
+    min-width:1.6em;
+    letter-spacing:.04em;
+  }
+  h2.title{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:clamp(26px,6vw,34px);
+    line-height:1.18;
+    color:#fff;
+    letter-spacing:.01em;
+  }
+
+  .policy p{margin:0 0 16px;color:var(--text-muted)}
+  .policy p strong{color:var(--text);font-weight:600}
+  .policy p.lead{color:var(--text)}
+
+  .policy a{
+    color:var(--rose-light);
+    text-decoration:none;
+    border-bottom:1px solid rgba(232,180,232,0.4);
+    transition:color .2s,border-color .2s;
+  }
+  .policy a:hover{color:#fff;border-color:#fff}
+
+  ul.clean{list-style:none;margin:6px 0 18px;padding:0}
+  ul.clean li{
+    position:relative;
+    padding-left:26px;
+    margin-bottom:12px;
+    color:var(--text-muted);
+  }
+  ul.clean li::before{
+    content:"";
+    position:absolute;
+    left:4px;top:.72em;
+    width:7px;height:7px;
+    border-radius:50%;
+    background:var(--rose);
+    box-shadow:0 0 8px rgba(181,71,138,0.6);
+  }
+  ul.clean li strong{color:var(--text);font-weight:600}
+
+  /* "no" list uses a faint cross-style marker */
+  ul.no li::before{
+    background:transparent;
+    box-shadow:none;
+    width:9px;height:9px;
+    top:.62em;
+    border:1.5px solid rgba(189,168,203,0.55);
+    border-radius:2px;
+  }
+
+  .fill{
+    color:var(--gold-light);
+    border-bottom:1px dashed rgba(229,176,74,0.55);
+    padding:0 2px;
+    font-style:normal;
+  }
+
+  .contact-card{
+    margin-top:6px;
+    padding:22px 24px;
+    border-radius:16px;
+    border:1px solid var(--line);
+    background:rgba(61,13,92,0.28);
+  }
+  .contact-card .who{
+    font-family:var(--display);
+    font-size:22px;
+    color:#fff;
+    margin-bottom:4px;
+  }
+
+  /* ── footer ────────────────────────────────────────────────────── */
+  footer{
+    text-align:center;
+    margin-top:66px;
+    padding-top:40px;
+    border-top:1px solid var(--line-soft);
+  }
+  footer .blessing{
+    font-family:var(--display);
+    font-style:italic;
+    font-size:clamp(20px,5vw,26px);
+    color:var(--rose-light);
+    line-height:1.4;
+  }
+  footer .deities{
+    margin-top:22px;
+    font-size:21px;
+    letter-spacing:.32em;
+    opacity:.6;
+    padding-left:.32em;
+  }
+  footer .names{
+    margin-top:12px;
+    font-size:11px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--text-faint);
+  }
+  footer .copy{
+    margin-top:26px;
+    font-size:12px;
+    color:var(--text-faint);
+    letter-spacing:.04em;
+  }
+
+  /* ── accessibility ─────────────────────────────────────────────── */
+  a:focus-visible,
+  :focus-visible{outline:2px solid var(--gold-light);outline-offset:3px;border-radius:3px}
+
+  @media (max-width:520px){
+    body{font-size:16px}
+    header{padding:66px 0 14px}
+    .pledge{padding:24px 22px}
+    .sec-head{gap:10px}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .lamp .core{animation:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="lamp">
+      <div class="halo"></div>
+      <div class="core"><span class="om">🕉️</span></div>
+      <svg class="tassel" width="26" height="34" viewBox="0 0 26 34" fill="none" aria-hidden="true">
+        <circle cx="13" cy="4" r="3.4" fill="#e5b04a"/>
+        <path d="M13 7 L9 32 M13 7 L13 33 M13 7 L17 32" stroke="#e5b04a" stroke-width="1.1" stroke-linecap="round" opacity="0.75"/>
+      </svg>
+    </div>
+    <div class="eyebrow">Privacy Policy</div>
+    <h1>Naam Jap</h1>
+    <div class="lede">A quiet, private space for your daily japa.</div>
+    <div class="updated">Last updated · 13 June 2026</div>
+  </header>
+
+  <div class="pledge">
+    <h2>In plain words</h2>
+    <p>Naam Jap was made for one purpose — to help you keep count while you chant. It has no login, it never asks who you are, and it sends nothing about you to us or to anyone else. The only thing it remembers is how many times you have chanted, and that number stays on your phone.</p>
+    <div class="pills">
+      <span class="pill">No account needed</span>
+      <span class="pill">No tracking or ads</span>
+      <span class="pill">Stays on your device</span>
+    </div>
+  </div>
+
+  <div class="beads" aria-hidden="true">
+    <span class="b sm"></span><span class="b"></span><span class="b"></span>
+    <span class="guru"></span>
+    <span class="b"></span><span class="b"></span><span class="b sm"></span>
+  </div>
+
+  <main>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">01</span><h2 class="title">About this policy</h2></div>
+      <p class="lead">This Privacy Policy explains how the Naam Jap mobile application (“Naam Jap”, “the app”, “we”, “us”, “our”) handles information. Naam Jap is published by <span class="fill">Vayu Mishra</span>.</p>
+      <p>By downloading or using the app, you agree to the practices described on this page. If you do not agree with this policy, please discontinue use of the app.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">02</span><h2 class="title">Information we collect</h2></div>
+      <p class="lead"><strong>In short: no personal information.</strong> Naam Jap does not collect, request, or store your name, email address, phone number, location, contacts, photos, or any other personal or identifying information.</p>
+      <p>So that your practice is remembered between sessions, the app saves a small amount of non-personal information <strong>on your device only</strong>:</p>
+      <ul class="clean">
+        <li><strong>Your jap count</strong> for each deity — how many repetitions you have completed and how many malas (108 repetitions) you have finished.</li>
+        <li><strong>Your current session preferences</strong>, such as the Auto Play speed you last chose.</li>
+      </ul>
+      <p>This is stored using your operating system’s standard on-device app storage. It is simply a number kept for each deity, and it is never transmitted to us or to any third party.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">03</span><h2 class="title">Information we do not collect</h2></div>
+      <p>To be completely clear, the app does not collect or have access to any of the following:</p>
+      <ul class="clean no">
+        <li>Personal identifiers — name, email, phone number, or user accounts</li>
+        <li>Your precise or approximate location</li>
+        <li>Your contacts, calendar, photos, files, or microphone input</li>
+        <li>Advertising identifiers or any identifiers used for tracking</li>
+        <li>Usage analytics, behavioural data, or crash-tracking tied to you</li>
+        <li>Payment or financial information</li>
+      </ul>
+      <p>Naam Jap contains <strong>no advertising</strong> and <strong>no analytics services</strong>.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">04</span><h2 class="title">How your device’s features are used</h2></div>
+      <p>To act as a chanting companion, the app uses a few features that run on your own device:</p>
+      <ul class="clean">
+        <li><strong>Text-to-speech.</strong> When you tap to count, the app asks your device’s built-in text-to-speech engine to pronounce the deity’s name (for example, “Radha”). Only that short word is passed to the engine. How the speech is produced is governed by your device’s operating system and its text-to-speech settings.</li>
+        <li><strong>Audio playback.</strong> In Auto Play mode, the app plays pre-recorded chant audio that is bundled inside the app itself. Nothing is streamed or downloaded.</li>
+        <li><strong>Vibration.</strong> The app may produce a gentle vibration as tactile feedback when you tap.</li>
+      </ul>
+      <p>The app does not use your camera, microphone, or any recording feature.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">05</span><h2 class="title">Internet and offline use</h2></div>
+      <p>Naam Jap is designed to work fully offline. Counting, the spoken name on each tap, and Auto Play all work without an internet connection and do not send your information over the network. We do not operate servers that receive your data, because the app does not transmit any.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">06</span><h2 class="title">Third-party services and sharing</h2></div>
+      <p>The app does not integrate advertising networks, analytics services, social-media tools, or other third-party tracking software. We do not sell, rent, share, or disclose your information to third parties, because we do not collect it.</p>
+      <p>Your device’s text-to-speech and audio output are provided by your operating system and are subject to the policies of your device manufacturer and operating-system provider (for example, Google for Android devices).</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">07</span><h2 class="title">Where your data lives, and how to remove it</h2></div>
+      <p>Because everything Naam Jap remembers stays on your device, you are fully in control of it:</p>
+      <ul class="clean">
+        <li><strong>Reset a single count.</strong> The reset button on a deity’s screen clears that deity’s count back to zero. Other deities are not affected.</li>
+        <li><strong>Remove everything.</strong> Uninstalling the app deletes all data it has stored on your device, including every jap count.</li>
+      </ul>
+      <p>We keep no backups of your data and cannot recover counts once they have been reset or the app has been uninstalled.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">08</span><h2 class="title">Children’s privacy</h2></div>
+      <p>Naam Jap is suitable for users of all ages. The app does not knowingly collect personal information from anyone, including children under the age of 13 (or under 16 where local law applies). Since no personal information is collected from any user, no data is gathered from children either. If you have any concern about a child’s use of the app, please contact us using the details below.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">09</span><h2 class="title">App permissions</h2></div>
+      <p>Depending on your device and operating-system version, the app may use:</p>
+      <ul class="clean">
+        <li><strong>Vibration</strong> — to provide gentle tap feedback.</li>
+        <li><strong>Audio output</strong> — to play chant audio and spoken names through your speaker or headphones.</li>
+      </ul>
+      <p>Naam Jap does not request access to your location, contacts, camera, microphone, photos, personal files, or any account on your device. You can review and manage app permissions at any time in your device settings.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">10</span><h2 class="title">Google Play Data safety</h2></div>
+      <p>In line with Google Play’s Data safety section, Naam Jap declares that <strong>no user data is collected</strong> and <strong>no user data is shared</strong> with third parties. Information such as your jap count is stored only on your device and is never sent off the device.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">11</span><h2 class="title">Changes to this policy</h2></div>
+      <p>We may update this Privacy Policy from time to time — for example, to reflect new features or legal requirements. When we do, we will revise the “Last updated” date at the top of this page, and meaningful changes will appear in a future version of the app. Continuing to use the app after an update means you accept the revised policy.</p>
+    </section>
+
+    <section class="policy">
+      <div class="sec-head"><span class="num">12</span><h2 class="title">Contact us</h2></div>
+      <p>If you have any questions about this Privacy Policy or how Naam Jap handles information, we’d be glad to hear from you:</p>
+      <div class="contact-card">
+        <div class="who"><span class="fill">Vayu Mishra</span></div>
+        <div>Email: <a href="mailto:vayumishra019@gmail.com"><span class="fill">vayumishra019@gmail.com</span></a></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="blessing">May your practice be steady,<br>and your mind at peace.</div>
+    <div class="deities" aria-hidden="true">🌸 🪈 🏹 🙏 🔱 🪔 🕉️</div>
+    <div class="names">Radha · Krishna · Rama · Hanuman · Shiva · Ganesha · Om</div>
+    <div class="copy">© 2026 Naam Jap · <span class="fill">Vayu Mishra</span>. All rights reserved.</div>
+  </footer>
+
+</div>
+</body>
+</html>
